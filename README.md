@@ -62,7 +62,7 @@ export default function TodoList() {
             setVegetableItems(current => [...current, item]);
         }
 
-        setTodoItems(todoItems.filter(todoItem => todoItem !== item));
+        setTodoItems(current => [...current].filter(fruitItem => fruitItem !== item));
     };
 
     const moveItemBackToList = (item) => {
