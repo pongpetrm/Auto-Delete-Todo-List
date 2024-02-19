@@ -1,7 +1,6 @@
 # Auto Delete Todo List
 # Answer code
 ```javascript
-// This is a JavaScript function that adds two numbers
 import React, { useState } from 'react';
 
 const initialData = [
