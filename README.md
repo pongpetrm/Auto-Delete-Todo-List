@@ -67,6 +67,7 @@ export default function TodoList() {
 
     const moveItemBackToList = (item) => {
         setTodoItems(current => [...current, item]);
+
         if (item.type === 'Fruit') {
             setFruitItems(current => [...current].filter(fruitItem => fruitItem !== item));
         } else if (item.type === 'Vegetable') {
